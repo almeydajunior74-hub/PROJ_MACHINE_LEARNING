@@ -1,8 +1,34 @@
-projeto simples mas que pode ser usado com grande volume de dados, quanto maior for o numero de dados, maior será a taxa de acerto.
+# Precificação de Pizzas com Machine Learning
 
-biblioteca.
+Aplicação desenvolvida em Python utilizando Streamlit
 
-pandas sciki-learn streamlit matplotlib
+Tecnologias Utilizadas
+Python
+Pandas
+Streamlit
+Scikit-Learn
+Funcionalidades
+Leitura de dados a partir de arquivo CSV
+Treinamento de modelo de Regressão Linear
+Previsão automática do preço da pizza
+Interface web interativa com Streamlit
+Entrada de dados em tempo real
+Como Funciona
 
+A aplicação utiliza um conjunto de dados contendo o diâmetro e o preço de pizzas para treinar um modelo de Machine Learning.
 
-para rodar, digite ni terminal streamit run app.py
+Após o treinamento, o usuário informa o diâmetro da pizza e o sistema estima automaticamente o valor de venda com base nos padrões aprendidos pelo modelo.
+
+Objetivo
+
+Demonstrar a aplicação prática de Machine Learning em problemas de regressão, utilizando dados simples para realizar previsões de preços de forma rápida e intuitiva.
+
+Como Executar
+
+Instale as dependências:
+
+pip install pandas streamlit scikit-learn
+
+Execute a aplicação:
+
+streamlit run app.py
